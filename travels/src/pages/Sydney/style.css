@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Background & Border */
+    --bg-def: #f5f4f0;
+    --border-1: #d9d9d9;
+
+    /* Text */
+    --text-1: #1b1b1b;
+    --text-2: #333;
+    --text-3: #696969;
+    --text-hl: #e1624f;
+
+    /* Destaque */
+    --historia: #0c51a7;
+    --orcamento: #e95e10;
+    --familias: #e5245e;
+    --casais: #591b98;
+
+    background-color: var(--bg-def);
+    background-image: url(../../assets/bg.jpg);
+    background-repeat: repeat;
+}
+
+html, body {
+    display: flex;  /* Usar flexbox para alinhar os filhos */
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    font-family: "Open Sans", serif;
+    background-color: var(--bg-def);
+}
+
+#container {
+    max-width: 1120px;
+    padding: 0px 10px;
+    font-family: "Open Sans", serif;
+    margin: 28px auto 65px;
+}
+
+section {   /* Todos os blocos */
+    margin-bottom: 40px;
+}
+
+article {
+    border: 1px gray;
+    border-style: inset none none inset;
+    border-radius: 26px;
+}
+
+#headline {
+    margin: 64px 0px 16px
+}
+
+.card {
+    margin: 48px 0px
+}
+
+#conclusion {
+    margin: 80px 0px 65px
+}
+
+footer p {
+    margin: 40px 0px 0px;
+    text-align: center;
+    color: var(--text-2)
+}
+
+.cardimg {
+    max-width: 1120px;
+    max-height: 729px;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.hl {
+    color: var(--text-hl);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--text-1);
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 8px
+}
+
+h2 {
+    color: var(--text-1);
+    font-size: 32px;
+    font-weight: bold;
+    margin: 2px 0 8px
+}
+
+h3 {
+    color: var(--text-1);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+p {
+    color: var(--text-2);
+    font-size: 16px;
+    font-weight: normal;
+    justify-content: space-around;
+}
+
+li {
+    margin-left: 30px;
+}
+
+.sub {
+    color: var(--text-2);
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.s2 {
+    color: var(--casais)
+}
+
+.hist {
+    color: var(--historia)
+}
+
+.orc {
+    color: var(--orcamento)
+}
+
+.fam {
+    color: var(--familias);
+}
+
+.heart {
+    margin: 0px 5px
+}
