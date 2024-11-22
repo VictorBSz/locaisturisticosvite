@@ -69,8 +69,8 @@ footer p {
 }
 
 .cardimg {
-    max-width: 1120px;
-    max-height: 729px;
+    width: 1100px;
+    height: 620px;
     align-items: center;
     border-radius: 16px;
     margin-bottom: 24px;

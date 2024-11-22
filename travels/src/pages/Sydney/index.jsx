@@ -51,7 +51,7 @@ const Sydney = () => {
         <br />
         <p className="bold"> Bom para: </p>
         <ul>
-          <li className="hist"> Cultura e Arquitetura </li>
+          <li className="hist"> História </li>
         </ul>
       </article>
 
@@ -84,7 +84,7 @@ const Sydney = () => {
         <ul>
           <li className="fam"> Famílias </li>
           <li className="orc"> Orçamento </li>
-          <li className="s2"> Jovens e Casais </li>
+          <li className="s2"> Casais </li>
         </ul>
       </article>
 
