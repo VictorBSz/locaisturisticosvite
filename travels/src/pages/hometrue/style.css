@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    /* Background & Border */
+    --bg-def: #f5f4f0;
+    --border-1: #d9d9d9;
+
+    /* Text */
+    --text-1: #1b1b1b;
+    --text-2: #333;
+    --text-3: #696969;
+    --text-hl: #e1624f;
+
+    /* Destaque */
+    --historia: #0c51a7;
+    --orcamento: #e95e10;
+    --familias: #e5245e;
+    --casais: #591b98;
+
+    background-color: var(--bg-def);
+    background-image: url(../../assets/bg.jpg);
+    background-repeat: repeat;
+}
+
+#page {
+    max-width: 1120px;
+}
+
+html, body {
+    display: flex;  /* Usar flexbox para alinhar os filhos */
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    font-family: "Open Sans", serif;
+    background-color: var(--bg-def);
+}
+
+.cardlink {
+    justify-content: space-evenly;
+    width: 320px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+#paises {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+}
+
+.flag {
+    height: 20px;
+    width: 30px;
+    margin: 5px;
+    align-items: center;
+}
