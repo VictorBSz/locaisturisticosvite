@@ -8,9 +8,9 @@ const Nav = () => {
     <header>
       <nav>
           <ul className="horizontal-nav">
-              <h1><NavLink to="#"><img className='logo' src={Logo} alt="" /></NavLink></h1>
+              <h1><NavLink to="/"><img className='logo' src={Logo} alt="" /></NavLink></h1>
               <li class='link'><NavLink to="/sydney">Outras Viagens!</NavLink></li>
-              <li class= 'link'><NavLink to="#">Créditos</NavLink></li>
+              <li class= 'link'><NavLink to="/test">Créditos</NavLink></li>
           </ul>
       </nav>
     </header>
