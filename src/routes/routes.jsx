@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "../pages/Home/index.jsx";
 import Sydney from "../pages/Sydney/index.jsx"
 import Berlin from '../pages/Berlin/index.jsx'
-import Test from "../pages/hometrue/index.jsx"
+import Busan from "../pages/Busan/index.jsx"
 
 export default function AppRoutes() {
     return(
@@ -12,7 +12,7 @@ export default function AppRoutes() {
                 <Route path="/" element={<Home />} />
                 <Route path="/sydney" element={<Sydney />} />
                 <Route path="/berlin" element={<Berlin />} />
-                <Route path="/test" element={<Test />} />
+                <Route path="/busan" element={<Busan />} />
             </Routes>
         </BrowserRouter>
     );
