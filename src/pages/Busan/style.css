@@ -34,7 +34,7 @@ html, body {
 }
 
 #container {
-    width: 1120px;
+    max-width: 1120px;
     padding: 0px 10px;
     font-family: "Open Sans", serif;
     margin: 28px auto 65px;
