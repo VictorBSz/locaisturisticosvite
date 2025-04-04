@@ -19,9 +19,10 @@
     --orcamento: #e95e10;
     --familias: #e5245e;
     --casais: #591b98;
+}
 
+#page {
     background-color: var(--bg-def);
-    background-image: url(../../assets/bg.jpg);
     background-repeat: repeat;
 }
 
